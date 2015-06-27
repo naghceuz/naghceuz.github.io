@@ -16,32 +16,112 @@
     </section>
 
     <section class="main-content">
-      <h3>
-      <!-- the logic will follow with the material -->
-        <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>博客整体结构
-      </h3>
+      <section id="2015-June-24">
+        <h3>
+        <!-- the logic will follow with the material -->
+          <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>博客整体结构
+        </h3>
 
-      <p>
-        这个博客可能会出现以下三类文章：
-        <li>读书笔记</li>
-        <li>杂读笔记</li>
-        <li>研发笔记</li>
-        <li>随写</li>
-        <br>
-        因为我觉得加<pre><标签>（tag）</pre>不是一个很好的分类手段，我会用标题作为分类手段
-      </p>
-
-
-      <h3>
-        <a id="2015-June-25" class="anchor" href="#2015-June-25" aria-hidden="true">
-          <span class="octicon octicon-link"></span>
-        </a>读书笔记:<b>ng-book The Complete Book on AngularJS</b>
-      </h3>
-
-      <p>
+        <p>
+          这个博客可能会出现以下三类文章：
+          <li>读书笔记</li>
+          <li>杂读笔记</li>
+          <li>研发笔记</li>
+          <li>随写</li>
+          <br>
+          因为我觉得加<pre><标签>（tag）</pre>不是一个很好的分类手段，我会用标题作为分类手段
+        </p>
+      </section>
 
 
-      </p>
+      <section id="2015-June-27" >
+        <h3>
+          <a id="2015-June-25" class="anchor" href="#2015-June-25" aria-hidden="true">
+            <span class="octicon octicon-link"></span>
+          </a>读书笔记:<b>ng-book: AngularJS</b>
+        </h3>
+
+        <p>
+          会按照以下的思路构建，这样以后回顾的时候可以快速上手.
+          <ol>
+            <li>理解AngularJS 组件的大概功能 </li>
+            <li>理解Anuglar 的运行机制(Digest Loop + $apply) </li>
+            <li>理解Angular 的Chrome Extension的工作原理</li>
+          </ol>
+        </p>
+
+        <h4>1.理解AngularJS组件</h4>
+          <p>
+          <li>
+            Modules: 
+          </li>
+            The module of an app is where we'll contain all of our application code. An app can contain several modules, each one containing code that pertains to specific functionality.
+
+          <br>
+          <br>
+
+          <li>
+            Controllers:
+          </li>
+            The controller in AngularJS is a function that adds additional functionality to the scope of the view. We use it to set up an initial state and to add custom behavior to the scope object.
+
+          <br>
+          <br>
+
+          <li>
+            Directives:
+          </li>
+            Directives are Anugular's method of creating new HTML elements that have their own functionality. 
+
+          <br>
+          <br>
+
+          <li>
+            Dependency Injection:
+          </li>
+            ?
+
+          <br>
+          <br>
+
+          <li>
+            Services:
+          </li>
+            In angularJS, every time we switch a route or reload a view, the current controller gets cleaned up by Angular.
+
+            Service provide a method for us to keep data around for the lifetime of the app and communicate across controllers in a consistent manner.
+
+          <br>
+          <br>
+
+          <li>
+            Promises:
+          </li>
+            A promise is a method of resolving a value in an asynchronous manner. 
+            Promises are objects that represent the return value or thrown exception that a function may eventually provide.
+            代替callback的
+
+            <br>
+
+            The real point of promises is to make asynchronous functions look more like synchronous ones. With synchronous functions, we can capture both return values and exception valued as expected.
+
+          <br>
+          <br>
+
+          <li>
+            Events:
+          </li>
+            Just as the browser respond to browser-level events, such as a mouse click or a page scroll, our Angular app can respond to Angular events. This fact gives us the advantage of being able to communicate across our application inside nested components that are not built with other components in mind.
+
+            <br>
+            We can think of events as sinppets of information propagated across an appilcation that generally contain information about what's happening inside of that application.
+
+
+
+          </p>
+      </section>
+
+
 
 
 

@@ -24,16 +24,75 @@
 
         <p>
           这个博客可能会出现以下三类文章：
-          <li>读书笔记</li>
-          <li>杂读笔记</li>
-          <li>研发笔记</li>
-          <li>随写</li>
+          <ul>
+            <li>读书笔记</li>
+            <li>杂读笔记</li>
+            <li>研发笔记</li>
+            <li>工作笔记</li>
+            <li>随笔</li>
+          </ul>
+
           <br>
-          因为我觉得加<pre><标签>（tag）</pre>不是一个很好的分类手段，我会用标题作为分类手段
+          因为我觉得加标签(tag)不是一个很好的分类手段，我会用标题作为分类手段
+          <br>
+          <br>
+
+          关于风格和格式这里写一下不然自己会忘记:
+          <ul>
+            <li>每篇文章都用section attribute区分</li>
+            <li>section的id 用日期绑定，方便日后改版</li>
+            <li>篇幅与篇幅之间用三个br tag 空出来</li>
+            <li>文章标题用 h3 </li>
+            <li>先这样将就着，等AngularJS学完了，再改版成markdown格式</li>
+          </ul>
+
         </p>
       </section>
 
+      <br>
+      <br>
+      <br>
 
+
+    <section id="2-15-July-3">  
+      <h3>
+        <span class="octicon octicon-link"></span>
+        工作笔记
+      </h3>
+      <h4> 工作中会用到的一些terminology</h4>
+        <ul>
+          <li>RTB (real time bidding) 实时竞价</li>
+          <li>DSP (demand side platform ）需求方平台，面向广告主的广告投放平台</li>
+          <li>DMP (Data Management Platform)</li>
+          <li>SSP (Sell-side platform) 媒体服务平台
+              </li>
+          <li>CPC (Cost per click) 每次点击付费广告，当用户点击某个网站的CPC之后，站长酒就会获得相应收入 </li>
+          <li>CPM (Cost Per 1000 impressions) 千人成本：由某一媒介或媒介广告排期表所送达1000人所需的成本. CPM是按曝光次数收费，适用于印象传播：认用户知道有这么一件事/商品    (CPM is mainly used when you want to increase your brand /product recognition.You could use certain tools to make an AD appear a number of times to a single user-it's all about creating the impression. )
+          </li>
+          <li>CPA (Cost per action) 按照广告投放的实际效果 </li>
+          <li>PMP(Private Marketplace)  </li>
+          <li>CTR (Click through rate ) 点击率  点进率 = 广告被点击次数 / 广告被显示次数 </li>
+          <li>对关系的一个简单说明: 比如说你打开一个网页, 就说是新浪好了, 上面挂了一个RTB的广告位, 那么当页面加载这个广告位的时候, 新浪就会向Exchange平台(就说是百度好了)发起一个消息, 说"我这儿有一个人要看广告了, 你给我发一个广告过来吧", 百度收到这个消息之后, 他会再向每一个接入到他的平台的要买广告的人(一般来说是DSP)发消息, 说"这儿有一个新浪的广告位要出广告, 你们看愿意出多少钱买这次曝光", 然后DSP那边一通计算, 告诉了百度一个数, 然后百度从每个DSP出的价格中挑选出最合适的那个(不求甚解的话就理解成出价最高的那个就好了, 实际情况中一般是第二高的价格), 把这次广告的曝光机会给这个DSP, 然后把这个DSP提供的广告返回到新浪那边, 然后新浪最终把这个广告展示出来, 你看到了这个广告. 这一系列过程都发生在你等待网页加载的1秒左右的时间里, 每个环节都只有几十到一百毫秒的处理时间,所以叫实时竞价. 而且在这个过程中, 媒体方或平台方可以告诉DSP这边关于这个广告位以及这个用户的信息, 比如这个用户是男是女, 年龄, 地区等等, DSP可以根据这些信息做更合理的出价, 并找到更符合广告主需求的目标人群.此外自然还能很方便的监测曝光率,点击率之类的指标.
+          </li>
+        </ul>  
+
+      <br>
+
+      <p>
+    </section>
+
+
+
+      <br>
+      <br>
+      <br>
+
+
+
+
+
+
+     <!--  AngularJS 的读书笔记 -->
       <section id="2015-June-27" >
         <h3>
           <a id="2015-June-25" class="anchor" href="#2015-June-25" aria-hidden="true">
@@ -49,6 +108,7 @@
             <li>理解Angular 的Chrome Extension的工作原理</li>
           </ol>
         </p>
+
 
         <h4>1.理解AngularJS组件</h4>
           <p>
@@ -115,10 +175,20 @@
 
             <br>
             We can think of events as sinppets of information propagated across an appilcation that generally contain information about what's happening inside of that application.
-
-
-
+            <br>
+            <br>
           </p>
+
+
+           <h4>2.理解Angular运行原理:</h4>
+           <p>
+              <li>  
+              </li>
+
+              <br>
+              </br>
+           </p>
+
       </section>
 
 
